@@ -12,9 +12,7 @@ const isInTheWatchList=watchList.some(m=>m.id===film.id)
   
 const handleWatchList=(film)=>{
   if(isInTheWatchList){
-    console.log('inside the if');
-    console.log(film.id,'id');
-    
+   
     removeFromWatchList(film.id)
   }
   else{

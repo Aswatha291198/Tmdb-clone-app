@@ -30,7 +30,7 @@ const Home = () => {
     try {
       const response=await allMovies(page)
       setMovies(response)
-      console.log(movies,'form the context');
+      
       
     } catch (error) {
       console.log(error.message);

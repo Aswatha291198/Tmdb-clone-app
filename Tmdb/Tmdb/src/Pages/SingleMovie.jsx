@@ -30,7 +30,7 @@ else{
        
       const castResp=await getMovieCredits(id)
       setCast(castResp.cast)
-      console.log(castResp.cast,'casrt');
+     
     } catch (error) {
       console.log(error.message);
       

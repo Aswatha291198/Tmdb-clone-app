@@ -2,7 +2,7 @@ import axios from "axios";
 
 const TMDB_API_KEY=import.meta.env.VITE_TMDB_API_KEY
 export const allMovies=async(pageNo)=>{
-console.log('inside the movies api');
+
 
     try {
          const url = 'https://api.themoviedb.org/3/movie/popular'
